@@ -1,13 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">占位图</title>
+  <desc id="desc">用于示例内容的占位图</desc>
   <defs>
     <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#f6d365" />
-      <stop offset="100%" stop-color="#fda085" />
+      <stop offset="0%" stop-color="#ff8a65" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#ffb74d" stop-opacity="0.9" />
     </linearGradient>
   </defs>
-  <rect x="0" y="0" width="400" height="300" fill="url(#grad)" />
-  <g fill="#ffffff" font-family="Helvetica, Arial, sans-serif" font-size="36" font-weight="600">
-    <text x="50%" y="48%" text-anchor="middle">Your</text>
-    <text x="50%" y="68%" text-anchor="middle">Photo Here</text>
+  <rect width="800" height="600" fill="url(#grad)" rx="32" ry="32" />
+  <g fill="#ffffff" font-family="'PingFang SC', 'Noto Sans SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">
+    <text x="400" y="290" font-size="48">Huihui</text>
+    <text x="400" y="350" font-size="24" opacity="0.85">图像占位 / Placeholder</text>
   </g>
 </svg>

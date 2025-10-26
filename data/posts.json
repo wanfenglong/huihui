@@ -1,0 +1,23 @@
+[
+  {
+    "title": "备考法硕笔记：刑法总论（示例）",
+    "date": "2025-01-01",
+    "tags": ["法硕", "刑法"],
+    "cover": "assets/images/placeholder.svg",
+    "url": "blog/2025-01-01-hello.html"
+  },
+  {
+    "title": "网络综合布线：从入门到实操（示例）",
+    "date": "2025-02-10",
+    "tags": ["教学", "综合布线"],
+    "cover": "assets/images/placeholder.svg",
+    "url": "blog/2025-02-10-cabling.html"
+  },
+  {
+    "title": "法律心理学：证人证言的可靠性（示例）",
+    "date": "2025-03-05",
+    "tags": ["心理学", "证言"],
+    "cover": "assets/images/placeholder.svg",
+    "url": "blog/2025-03-05-psychlaw.html"
+  }
+]

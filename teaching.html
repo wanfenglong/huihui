@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Huihui 的教学与法硕笔记、AI作品与资料下载">
+  <title>教学与法硕资料 | Huihui 的个人空间</title>
+  <meta property="og:title" content="教学与法硕资料 - Huihui 的个人空间">
+  <meta property="og:description" content="综合布线课程素材、法硕笔记与心理学研究资料在线下载。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://example.com/teaching.html">
+  <meta property="og:image" content="assets/images/placeholder.svg">
+  <link rel="icon" href="assets/images/placeholder.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="teaching">
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a class="brand" href="index.html">Huihui</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="切换导航菜单">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav>
+        <ul class="nav-links" id="primary-navigation">
+          <li><a href="index.html" data-page="home">首页</a></li>
+          <li><a href="about.html" data-page="about">关于我</a></li>
+          <li><a href="teaching.html" data-page="teaching">教学&法硕</a></li>
+          <li><a href="works.html" data-page="works">AI&作品</a></li>
+          <li><a href="blog.html" data-page="blog">博客</a></li>
+          <li><a href="gallery.html" data-page="gallery">相册</a></li>
+          <li><a href="downloads.html" data-page="downloads">下载</a></li>
+          <li><a href="contact.html" data-page="contact">联系</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="hero" style="padding-bottom:2rem;">
+        <h1>教学与法硕资料库</h1>
+        <p class="section-lead">集中收录课堂演示、实训任务书、法硕/法考笔记与法律心理学研究资料，支持标签筛选与关键字搜索。</p>
+      </section>
+
+      <section id="teaching-files">
+        <div class="controls" role="search">
+          <label class="sr-only" for="teaching-search">搜索资料</label>
+          <input id="teaching-search" class="search-input" type="search" placeholder="搜索标题或简介" aria-label="搜索教学与法硕资料">
+          <label class="sr-only" for="teaching-filter">按标签筛选</label>
+          <select id="teaching-filter" class="filter-select" aria-label="按标签筛选资料"></select>
+        </div>
+        <div class="table-wrapper">
+          <table class="list-table" aria-describedby="table-description">
+            <caption id="table-description" class="sr-only">教学与法硕资料下载列表</caption>
+            <thead>
+              <tr>
+                <th scope="col">资料</th>
+                <th scope="col">大小</th>
+                <th scope="col">更新日期</th>
+                <th scope="col">操作</th>
+              </tr>
+            </thead>
+            <tbody class="list-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div>© <span id="year"></span> Huihui. 保留所有权利。</div>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
