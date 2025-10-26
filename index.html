@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>我的空间 | Huihui</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Huihui 的空间</h1>
+        <ul>
+          <li><a href="#about">简介</a></li>
+          <li><a href="#photos">照片</a></li>
+          <li><a href="#files">文件</a></li>
+          <li><a href="#ideas">想法</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <h2>你好，我是 Huihui</h2>
+        <p class="lead">
+          这里是我放置个人文件、生活照片与灵感想法的小天地。
+          你可以根据自己的喜好修改这段文字，让访客快速了解你自己。
+        </p>
+        <div class="card-grid two">
+          <article class="card">
+            <h3>小提示</h3>
+            <p>
+              直接把照片放进 <code>assets/images</code> 文件夹，把文件放进
+              <code>assets/files</code> 文件夹，然后在下面各个部分的列表里更新链接即可。
+            </p>
+          </article>
+          <article class="card">
+            <h3>如何分享</h3>
+            <p>
+              把整个文件夹复制到你的电脑上，双击 <code>index.html</code> 就能用浏览器打开。
+              如果要给朋友看，把这个文件夹打包发送给 Ta 就行。
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="photos">
+        <h2>生活照片</h2>
+        <p class="lead">挑选最喜欢的瞬间，与朋友分享你的故事。</p>
+        <div class="card-grid three">
+          <figure class="photo">
+            <img src="assets/images/placeholder.svg" alt="示例照片" />
+            <figcaption>在这里写一段关于照片的描述。</figcaption>
+          </figure>
+          <figure class="photo">
+            <img src="assets/images/placeholder.svg" alt="示例照片" />
+            <figcaption>把文件名改成你的照片，比如 sunset.jpg。</figcaption>
+          </figure>
+          <figure class="photo">
+            <img src="assets/images/placeholder.svg" alt="示例照片" />
+            <figcaption>想要更多照片？复制这一块的代码即可。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="files">
+        <h2>个人文件</h2>
+        <p class="lead">
+          这里可以放你的作品、简历、行程表或者任何想保留的内容。
+          记得把文件放在 <code>assets/files</code> 文件夹里。
+        </p>
+        <ul class="list">
+          <li>
+            <span class="badge">PDF</span>
+            <div>
+              <a href="assets/files/example.pdf">我的作品集（示例）</a>
+              <p class="lead">把链接改成你的真实文件，比如 resume.pdf。</p>
+            </div>
+          </li>
+          <li>
+            <span class="badge">TXT</span>
+            <div>
+              <a href="assets/files/README.txt">使用说明</a>
+              <p class="lead">删除或替换成你自己的内容。</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="ideas">
+        <h2>灵感想法</h2>
+        <p class="lead">记录每一个闪光的点子，方便之后继续拓展。</p>
+        <div class="card">
+          <div class="timeline">
+            <div class="timeline-item">
+              <h3>最新想法</h3>
+              <p>在这里写下你今天的灵感，记得注明日期。</p>
+            </div>
+            <div class="timeline-item">
+              <h3>正在进行</h3>
+              <p>把进行中的计划写下来，方便随时查看。</p>
+            </div>
+            <div class="timeline-item">
+              <h3>未来计划</h3>
+              <p>列一个愿望清单，给自己一个小目标。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© <span id="year"></span> Huihui · 永远保持好奇心与热情。</p>
+    </footer>
+
+    <script>
+      const yearSpan = document.getElementById('year');
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+      }
+    </script>
+  </body>
+</html>
