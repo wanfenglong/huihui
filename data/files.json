@@ -1,0 +1,50 @@
+[
+  {
+    "name": "网络综合布线PPT（示例）",
+    "path": "assets/files/example.pdf",
+    "size": "3.2 MB",
+    "updated": "2025-01-02",
+    "tags": ["教学", "综合布线", "2025"],
+    "desc": "课堂用演示文稿"
+  },
+  {
+    "name": "法硕刑法笔记（示例）",
+    "path": "assets/files/law-criminal.pdf",
+    "size": "1.1 MB",
+    "updated": "2025-01-10",
+    "tags": ["法硕", "刑法"],
+    "desc": "总论框架与记忆法"
+  },
+  {
+    "name": "证言分析工作流程（示例）",
+    "path": "assets/files/witness-analysis.pdf",
+    "size": "820 KB",
+    "updated": "2025-02-12",
+    "tags": ["心理学", "证言"],
+    "desc": "证人证言可靠性评估表"
+  },
+  {
+    "name": "AI 故事视频分镜（示例）",
+    "path": "assets/files/ai-storyboard.zip",
+    "size": "12.5 MB",
+    "updated": "2025-02-28",
+    "tags": ["AI", "创作"],
+    "desc": "故事视频分镜与配音脚本"
+  },
+  {
+    "name": "综合布线实训任务书（示例）",
+    "path": "assets/files/cabling-task.pdf",
+    "size": "540 KB",
+    "updated": "2025-03-01",
+    "tags": ["教学", "实践"],
+    "desc": "实验步骤与评分表"
+  },
+  {
+    "name": "法考高频考点清单（示例）",
+    "path": "assets/files/law-hotspots.xlsx",
+    "size": "260 KB",
+    "updated": "2025-03-08",
+    "tags": ["法考", "备考"],
+    "desc": "按科目整理的高频考点"
+  }
+]

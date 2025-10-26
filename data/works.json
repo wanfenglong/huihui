@@ -1,0 +1,44 @@
+[
+  {
+    "title": "AI 故事视频：小熊与小兔子",
+    "tags": ["AI", "视频"],
+    "cover": "assets/images/placeholder.svg",
+    "link": "https://example.com/story",
+    "prompt": "以森林为主题的温柔故事，强调情绪表达与陪伴。"
+  },
+  {
+    "title": "IP 形象：夜糖（示例）",
+    "tags": ["IP", "插画"],
+    "cover": "assets/images/placeholder.svg",
+    "link": "https://example.com/night-sugar",
+    "prompt": "柔和霓虹色调的都市夜景中，一只喜爱音乐的糖果精灵。"
+  },
+  {
+    "title": "法考知识图谱可视化",
+    "tags": ["法硕", "数据可视化"],
+    "cover": "assets/images/placeholder.svg",
+    "link": "https://example.com/law-map",
+    "prompt": "将刑法与民法核心知识点连接为交互式图谱。"
+  },
+  {
+    "title": "教学微课：综合布线实验室导览",
+    "tags": ["教学", "视频"],
+    "cover": "assets/images/placeholder.svg",
+    "link": "https://example.com/lab-tour",
+    "prompt": "使用 AI 生成的虚拟主持人介绍实验室设备使用规范。"
+  },
+  {
+    "title": "故事插画：证言分析师",
+    "tags": ["插画", "心理学"],
+    "cover": "assets/images/placeholder.svg",
+    "link": "https://example.com/analyst",
+    "prompt": "以法庭心理学为主题的科幻风插画，强调观察细节。"
+  },
+  {
+    "title": "AI 剧本：校园法律心理剧",
+    "tags": ["AI", "剧本"],
+    "cover": "assets/images/placeholder.svg",
+    "link": "https://example.com/script",
+    "prompt": "结合法硕知识与心理学的互动式短剧脚本。"
+  }
+]

@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Huihui 的教学与法硕笔记、AI作品与资料下载">
-  <title>Huihui 的个人空间</title>
-  <meta property="og:title" content="Huihui 的个人空间">
-  <meta property="og:description" content="大专教师 Huihui 的教学法硕笔记、AI 创作、博客与资料下载。">
+  <title>资料下载中心 | Huihui 的个人空间</title>
+  <meta property="og:title" content="资料下载中心 - Huihui 的个人空间">
+  <meta property="og:description" content="下载 Huihui 精选的教学资料、法硕笔记与 AI 创作资源。">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://example.com/">
+  <meta property="og:url" content="https://example.com/downloads.html">
   <meta property="og:image" content="assets/images/placeholder.svg">
   <link rel="icon" href="assets/images/placeholder.svg">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body data-page="home">
+<body data-page="downloads">
   <header class="navbar">
     <div class="navbar-inner">
       <a class="brand" href="index.html">Huihui</a>
@@ -37,43 +37,38 @@
     </div>
   </header>
   <main>
-    <section class="hero">
-      <div class="container">
-        <h1><strong>Huihui 的个人空间</strong></h1>
-        <p>专注综合布线实践教学、法硕/法考备考与法律心理学研究，同时分享 AI 创作、博客文章、相册与资料下载。</p>
-      </div>
-    </section>
+    <div class="container">
+      <section class="hero" style="padding-bottom:2rem;">
+        <h1>资料下载中心</h1>
+        <p class="section-lead">所有公开分享的 PPT、PDF、ZIP、表格等资源在此统一维护，支持标签过滤与关键词搜索，方便课堂或备考使用。</p>
+      </section>
 
-    <section class="container">
-      <div class="cards-grid" aria-label="快速入口">
-        <article class="card">
-          <h3>教学 &amp; 法硕</h3>
-          <p>实训课程案例、法硕/法考笔记与课堂资料，支持标签与关键字检索。</p>
-          <a class="button" href="teaching.html">进入专区</a>
-        </article>
-        <article class="card">
-          <h3>AI &amp; 创作作品</h3>
-          <p>故事视频、插画与 IP 形象，记录创作灵感与生成提示。</p>
-          <a class="button" href="works.html">查看作品</a>
-        </article>
-        <article class="card">
-          <h3>资料下载中心</h3>
-          <p>集中整理 PPT、PDF、ZIP 等资料，随时更新与下载。</p>
-          <a class="button" href="downloads.html">去下载</a>
-        </article>
-      </div>
-
-      <h2 class="section-title">最近更新</h2>
-      <div class="grid" id="recent-posts" aria-live="polite"></div>
-    </section>
+      <section id="downloads-files">
+        <div class="controls" role="search">
+          <label class="sr-only" for="downloads-search">搜索资料</label>
+          <input id="downloads-search" class="search-input" type="search" placeholder="搜索标题或简介" aria-label="搜索下载资料">
+          <label class="sr-only" for="downloads-filter">按标签筛选</label>
+          <select id="downloads-filter" class="filter-select" aria-label="按标签筛选下载资料"></select>
+        </div>
+        <div class="table-wrapper">
+          <table class="list-table" aria-describedby="downloads-description">
+            <caption id="downloads-description" class="sr-only">下载资料列表</caption>
+            <thead>
+              <tr>
+                <th scope="col">资料</th>
+                <th scope="col">大小</th>
+                <th scope="col">更新日期</th>
+                <th scope="col">操作</th>
+              </tr>
+            </thead>
+            <tbody class="list-body"></tbody>
+          </table>
+        </div>
+      </section>
+    </div>
   </main>
-
   <footer class="footer">
     <div>© <span id="year"></span> Huihui. 保留所有权利。</div>
-    <div class="footer-nav">
-      <a href="contact.html">与我联系</a>
-      <a href="downloads.html">资料下载</a>
-    </div>
   </footer>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
